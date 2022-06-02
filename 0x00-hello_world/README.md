@@ -4,3 +4,5 @@
 
 1-compiler compiles a C file but does not link
 
+2-assembler generates the assembly code of a C code and saves it to an output file
+
