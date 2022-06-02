@@ -6,3 +6,5 @@
 
 2-assembler generates the assembly code of a C code and saves it to an output file
 
+3-name compiles a C file and creats an executable named cisfun
+
