@@ -10,3 +10,4 @@
 
 4-puts.c prints a sentence using fn puts and returns value 0
 5-printf.c prints text using printf function
+6-size.c prints the size of various typed on the computer it is compiled and run on
