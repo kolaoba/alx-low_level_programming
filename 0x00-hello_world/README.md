@@ -16,3 +16,5 @@
 
 100-intel generates the assembly code in intel syntax of a C code and save it to an output file
 
+101-quote.c prints text to stdout return 1
+
