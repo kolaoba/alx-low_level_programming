@@ -3,9 +3,9 @@
 #include <stdio.h>
 /* more headers goes there */
 /**
- * main - program prints single digit numbers 
+ * main - program prints single digit numbers
  *
- * Description - program prints single digit numbers 
+ * Description - program prints single digit numbers
  * from zero in base ten
  * Return: Always 0
  */
@@ -17,8 +17,8 @@ int main(void)
 	/* your code goes there */
 	for (num = 0 ; num < 10 ; num++)
 	{
-	putchar(num);
+	printf("%d",num);
 	}
-	putchar('\n');
+	printf('\n');
 	return (0);
 }
