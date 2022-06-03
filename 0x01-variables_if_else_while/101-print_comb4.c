@@ -24,8 +24,8 @@ int main(void)
 	{	
 	putchar((num1 % 10) + '0');
 	putchar((num2 % 10) + '0');
-	putchar((num23% 10) + '0');
-	if (num1 == 7 && num2 == 8 && num3 ==9)
+	putchar((num3 % 10) + '0');
+	if (num1 == 7 && num2 == 8 && num3 == 9)
 	{
 	continue;
 	}
