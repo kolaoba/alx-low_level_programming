@@ -9,5 +9,10 @@
 3-name compiles a C file and creats an executable named cisfun
 
 4-puts.c prints a sentence using fn puts and returns value 0
+
 5-printf.c prints text using printf function
+
 6-size.c prints the size of various typed on the computer it is compiled and run on
+
+100-intel generates the assembly code in intel syntax of a C code and save it to an output file
+
