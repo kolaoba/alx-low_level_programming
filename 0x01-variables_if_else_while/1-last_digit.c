@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/*
+/**
  * main - program generates random numbers
  *
  * Description - program generates random numbers and checks for post digit
