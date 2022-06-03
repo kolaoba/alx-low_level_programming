@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/**
+/*
  * main - program generates random number
  *
- * Description - program generates random number and checks if positive, negative or zero
- * Return: Always 0 
+ * Description - program generates random number and checks
+ * Return: Always 0
  */
 /* betty style doc for function main goes there */
 int main(void)
