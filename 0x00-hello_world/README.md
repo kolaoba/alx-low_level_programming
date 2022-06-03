@@ -9,3 +9,4 @@
 3-name compiles a C file and creats an executable named cisfun
 
 4-puts.c prints a sentence using fn puts and returns value 0
+5-printf.c prints text using printf function
