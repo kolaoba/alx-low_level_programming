@@ -2,7 +2,7 @@
 /**
  * main - program prints sum of multiples of 3 and 5 under 1024
  *
- * Return: final sum
+ * Return: Always 0
  */
 int main(void)
 {
@@ -16,5 +16,6 @@ int main(void)
 			sum += i;
 		}
 	}
-	printf("%d", sum);
+	printf("%d\n", sum);
+	return (0);
 }
