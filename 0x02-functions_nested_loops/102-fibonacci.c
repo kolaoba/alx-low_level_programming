@@ -12,7 +12,7 @@ int main(void)
 	for (count = 0; count < 50; count++)
 	{
 		sum = fib0 + fib1;
-		printf("lu", sum);
+		printf("%lu", sum);
 
 		fib0 = fib1;
 		fib1 = sum;
