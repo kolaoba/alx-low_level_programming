@@ -9,10 +9,10 @@ int main(void)
 	int count;
 	unsigned long fib0, fib1, sum;
 	
-	for (count = 0; count < 50, count++)
+	for (count = 0; count < 50; count++)
 	{
 		sum = fib0 + fib1;
-		printf("lu, ", sum);
+		printf("lu", sum);
 
 		fib0 = fib1;
 		fib1 = sum;
