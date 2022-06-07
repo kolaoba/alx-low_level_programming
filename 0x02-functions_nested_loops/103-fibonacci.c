@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - program prints the sum of even-valued fibonacci terms less than 4000000
+ * main - prints sum of even-valued fibonacci terms less than 4000000
  *
  * Return: Always 0
  */
@@ -13,7 +13,7 @@ int main(void)
 	{
 		next_term = fib0 + fib1;
 
-		if ((next_term % 2 == 0) || next_term < 4000000)
+		if ((next_term % 2 == 0) && next_term < 4000000)
 		{
 			sum += next_term;
 		}
