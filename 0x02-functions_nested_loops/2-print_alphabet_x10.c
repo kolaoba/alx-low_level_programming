@@ -3,7 +3,7 @@
  * print_alphabetx10 - program prints the alphabet in lower case 10 times
  * followed by a new line
  */
-void print_alphabetx10(void)
+void print_alphabet_x10(void)
 {
 	char letter;
 	int count = 0;
