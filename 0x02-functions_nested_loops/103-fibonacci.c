@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - program prints the sum of even-valued fibonacci terms less than 4000000
- * 
+ *
  * Return: Always 0
  */
 int main(void)
@@ -24,5 +24,6 @@ int main(void)
 
 
 	}
+	printf("%lu\n", sum);
 	return (0);
 }
