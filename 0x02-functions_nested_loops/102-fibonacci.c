@@ -7,8 +7,8 @@
 int main(void)
 {
 	int count;
-	unsigned long fib0, fib1, sum;
-	
+	unsigned long fib0 = 0, fib1 = 1, sum;
+
 	for (count = 0; count < 50; count++)
 	{
 		sum = fib0 + fib1;
@@ -16,7 +16,7 @@ int main(void)
 
 		fib0 = fib1;
 		fib1 = sum;
-		
+
 		if (count == 49)
 		{
 			printf("\n");
