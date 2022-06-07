@@ -9,3 +9,5 @@
  */
 
 int _putchar(char x);
+
+#endif
