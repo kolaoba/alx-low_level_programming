@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - program prints numbers from 1 to 100 
+ * main - Prints the numbers from 1 to 100, for multiples of three,
+ * Fizz is printed instead of the number, for multiples of five,
+ * Buzz, and for multiples of both three and five, FizzBuzz.
  *
- * Description - Replace 3 with fizz and 5 with buzz
- * and multiples of both with fizzbuzz followed by a new line
- * Return: Always 0
+ * Return: Always 0.
  */
 int main(void)
 {
