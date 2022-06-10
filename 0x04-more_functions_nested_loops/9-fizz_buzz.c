@@ -1,10 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - program prints numbers from 1 to 100 
  *
  * Description: Replace 3 with fizz and 5 with buzz
  * and multiples of both with fizzbuzz followed by a new line
- * 
  * Return: Always 0
  */
 int main(void)
@@ -15,12 +15,16 @@ int main(void)
 	{
 		if ((num % 3) == 0 && (num % 5) == 0)
 			printf("FizzBuzz");
+
 		else if ((num % 3) == 0)
 			printf("Fizz");
+
 		else if ((num % 5) == 0)
 			printf("Buzz");
+
 		else
 			printf("%d", num);
+
 		if (num == 100)
 			continue;
 		printf(" ");
