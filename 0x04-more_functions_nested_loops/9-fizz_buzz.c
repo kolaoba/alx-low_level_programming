@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - program prints numbers from 1 to 100 without 3, 5 
- * or multiples of both. Replace 3 with fizz and 5 with buzz
- * followed by a new line
+ * main - program prints numbers from 1 to 100 
+ *
+ * Description: Replace 3 with fizz and 5 with buzz
+ * and multiples of both with fizzbuzz followed by a new line
  * 
  * Return: Always 0
  */
