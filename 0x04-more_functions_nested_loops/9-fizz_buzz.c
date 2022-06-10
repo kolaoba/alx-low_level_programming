@@ -3,7 +3,7 @@
 /**
  * main - program prints numbers from 1 to 100 
  *
- * Description: Replace 3 with fizz and 5 with buzz
+ * Description - Replace 3 with fizz and 5 with buzz
  * and multiples of both with fizzbuzz followed by a new line
  * Return: Always 0
  */
