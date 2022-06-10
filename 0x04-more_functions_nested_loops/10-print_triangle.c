@@ -13,7 +13,7 @@ void print_triangle(int size)
 	{
 		for (pound = 1; pound <= size; pound++)
 		{
-			for (ind = size - pound; ind < n; ind--)
+			for (ind = size - pound; ind > 0; ind--)
 				_putchar(' ');
 			
 			for (ind = 0; ind < pound; ind++)
