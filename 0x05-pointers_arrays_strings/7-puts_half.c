@@ -20,5 +20,5 @@ void puts_half(char *str)
 	}
 	printf("%s", str);
 
-	printf("\n");	
+	printf("\n");
 }
