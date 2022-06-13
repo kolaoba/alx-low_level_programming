@@ -18,12 +18,12 @@ int main(void)
 
 	for (index = 0; index < 100; index++)
 	{
-		pass[index] = rand() % 55;
+		pass[index] = rand() % 78;
 		count += (pass[index] + '0');
 		putchar(pass[index] + '0');
-		if ((3672 - count) - '0' < 55)
+		if ((2772 - count) - '0' < 78)
 		{
-			s = 3672 - count - '0';
+			s = 2772 - count - '0';
 			count += s;
 			putchar(s + '0');
 			break;
