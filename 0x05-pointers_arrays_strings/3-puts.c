@@ -3,10 +3,10 @@
  * _puts - program prints a string followed by a new linet to stdout
  * @str: input string
  */
-void _puts(char *s)
+void _puts(char *str)
 {
-	while (*s)
-		_putchar(*s++);
+	while (*str)
+		_putchar(*str++);
 
 	_putchar('\n');
 }
