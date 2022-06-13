@@ -10,7 +10,7 @@
 int main(void)
 {
 	int pass[100];
-	int iindex, count, s;
+	int index, count, s;
 
 	count = 0;
 
