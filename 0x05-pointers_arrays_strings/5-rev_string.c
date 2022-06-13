@@ -18,6 +18,4 @@ void rev_string(char *s)
 	s[index] = s[length - index - 1];
 	s[length - index - 1] = swp;
 	}
-
-	_putchar('\n');
 }
