@@ -10,15 +10,15 @@ void puts_half(char *str)
 	int index = 0;
 	int half_length;
 
-	while (s[index++])
+	while (str[index++])
 		length++;
 	half_length = length / 2;
 
-	while (*(s + half_length) != '\0')
+	while (*(str + half_length) != '\0')
 	{
-	s++;
+	str++;
 	}
-	printf("%s", s);
+	printf("%s", str);
 
 	printf("\n");	
 }
