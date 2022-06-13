@@ -14,5 +14,5 @@ void puts2(char *str)
 		printf("%c", str[index]);
 	index++;
 	}
-	_putchar('\n');
+	printf("\n");
 }
