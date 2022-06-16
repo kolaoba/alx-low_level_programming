@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * leet - function encodes a string using rot13
+ * rot13- function encodes a string using rot13
  * @str: string to be changed
  *
  * Return: pointer to changed string
@@ -34,10 +34,9 @@ char *rot13(char *str)
 		{
 			if (str[index1] == alphabet[index2])
 			{
-				str[index1] == rot13key[index2];
+				str[index1] = rot13key[index2];
 				break;
 			}
-
 		}
 
 		index1++;
