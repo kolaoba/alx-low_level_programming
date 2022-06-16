@@ -9,6 +9,6 @@
  */
 
 char _*strcat(char *dest, char *src);
-void _putchar(char c);
+int _putchar(char c);
 
 #endif
