@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * cap_string - function captalizes all words of a string
+ * cap_string - function capitalizes all words of a string
  * @str: string to be changed
  *
  * Return: pointer to changed string
