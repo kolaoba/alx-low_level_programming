@@ -8,7 +8,7 @@
  *       used in the 0x06-pointers, arrays and strings.
  */
 
-char _*strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src);
 int _putchar(char c);
 
 #endif
