@@ -5,6 +5,25 @@ int check_palindrome(char *s, int len, int index);
 int is_palindrome(char *s);
 
 /**
+ * _strlen_recursion - Returns the length of a string.
+ * @s: The string to be measured.
+ *
+ * Return: The length of the string.
+ */
+int _strlen_recursion(char *s)
+{
+	int len = 0;
+
+	if (*(s + len))
+	{
+		len++;
+		len += _strlen_recursion(s + len);
+	}
+
+	return (len);
+}
+
+/**
  * check_palindrome - Checks if a string is a palindrome.
  * @s: The string to be checked.
  * @len: The length of s.
