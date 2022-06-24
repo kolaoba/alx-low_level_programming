@@ -5,7 +5,7 @@
  * @argc: number of arguments supplied to the program
  * @argv: array of pointers to the arguments
  *
- * Return: 0 if two arguments supplied, else 1 
+ * Return: 0 if two arguments supplied, else 1
  */
 int main(int argc, char *argv[])
 {
