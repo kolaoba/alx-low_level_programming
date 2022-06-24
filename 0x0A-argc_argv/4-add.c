@@ -13,16 +13,19 @@ int main(int argc, char *argv[])
 
 	for (num = 1; num < argc; num++)
 	{
-		for (digit = 0; argv[num][digit] != '\0'; digit++)
+		for (digit = 0; argv[num][digit]; digit++)
 		{
-			if (!isdigit(argv[num][digit]))
+			if (argv[num][digit] < '0' || argv[num][digit] > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
 		}
+
 		sum += atoi(argv[num]);
 	}
+
 	printf("%d\n", sum);
+
 	return (0);
 }
